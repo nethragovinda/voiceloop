@@ -32,7 +32,7 @@ export default function Login() {
         <div className="login-brand">
           <div className="login-logo">V</div>
           <div>
-            <h1>voiceloop</h1>
+            <h1>VoiceLoop</h1>
             <p>Customer intelligence</p>
           </div>
         </div>
