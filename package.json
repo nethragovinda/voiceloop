@@ -1,0 +1,38 @@
+{
+  "name": "voiceloop",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+     "dev": "concurrently -n web,server -c blue,green \"npm run dev --prefix apps/web\" \"npm run dev --prefix apps/server\"",
+     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "concurrently": "^10.0.7"
+  },
+  "dependencies": {
+    "ansi-regex": "^6.6.0",
+    "ansi-styles": "^6.2.3",
+    "chalk": "^5.6.2",
+    "cliui": "^9.0.1",
+    "emoji-regex": "^10.6.0",
+    "escalade": "^3.2.0",
+    "get-caller-file": "^2.0.5",
+    "get-east-asian-width": "^1.7.0",
+    "rxjs": "^7.8.2",
+    "shell-quote": "^1.12.0",
+    "string-width": "^7.2.0",
+    "strip-ansi": "^7.2.0",
+    "supports-color": "^10.2.2",
+    "tree-kill": "^1.2.2",
+    "tslib": "^2.9.1",
+    "wrap-ansi": "^9.0.2",
+    "y18n": "^5.0.8",
+    "yargs": "^18.0.0",
+    "yargs-parser": "^22.0.0"
+  },
+  "type": "commonjs"
+}
